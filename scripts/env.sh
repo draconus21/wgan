@@ -42,7 +42,7 @@ done
 # ------------------------------------------------------------------- #
 if [[ -z "$SRC_DIR" ]]; then
     echo "Warning: src_dir is empty, assuming current dir is src_dir: $(pwd)";
-    SRC_DIR="$(pwd)d"
+    SRC_DIR="$(pwd)"
 fi
 
 

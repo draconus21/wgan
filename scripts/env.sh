@@ -52,5 +52,6 @@ PYTHONPATH="$SRC_DIR/src"
 
 PATH=$PYTHONPATH:$PATH
 
+export LOG_CFG="$SRC_DIR/logging.json"
 export PATH
 export PYTHONPATH
